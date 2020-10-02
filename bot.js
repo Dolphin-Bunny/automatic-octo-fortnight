@@ -16,7 +16,7 @@ client.on('message', message => {
 
     if (message.content === 'ping') {
 
-       message.reply('pong');
+       message.reply('pong\n\n`If you are seeing this the bot is hosted properly on Heroku');
 
        }
 
